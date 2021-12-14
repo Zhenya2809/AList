@@ -9,6 +9,7 @@ public class NumberUtils {
         }
         return sum;
     }
+
     public List<Integer> multiplyOddNumber(List numbers) {
         List<Integer> resul = new ArrayList<>();
         for (int i = 0; i < numbers.size(); i = i + 2) {

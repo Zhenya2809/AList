@@ -13,13 +13,13 @@ public class Main {
         stringList.add("threeee");
         System.out.println(stringUtils.getShortestWord(stringList));
 
-        List<Integer> integerList= new ArrayList<>();
+        List<Integer> integerList = new ArrayList<>();
         integerList.add(1);
         integerList.add(2);
         integerList.add(3);
         integerList.add(4);
         integerList.add(5);
-        NumberUtils numberUtils=new NumberUtils();
+        NumberUtils numberUtils = new NumberUtils();
         System.out.println(numberUtils.getSum(integerList));
         System.out.println(numberUtils.multiplyOddNumber(integerList));
     }
