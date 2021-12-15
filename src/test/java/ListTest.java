@@ -33,12 +33,13 @@ public class ListTest {
     void testmultiplyOddNumber() {
         List<Integer> integerList = new ArrayList<>();
         integerList.add(1);
-        integerList.add(2);
+        integerList.add(1);
         integerList.add(3);
         integerList.add(4);
         integerList.add(5);
         NumberUtils numberUtils = new NumberUtils();
         List<Integer> testList = new ArrayList<>();
+        testList.add(2);
         testList.add(2);
         testList.add(6);
         testList.add(10);

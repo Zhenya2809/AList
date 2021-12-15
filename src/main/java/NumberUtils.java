@@ -10,11 +10,13 @@ public class NumberUtils {
         return sum;
     }
 
-    public List<Integer> multiplyOddNumber(List numbers) {
+    public List<Integer> multiplyOddNumber(List<Integer> numbers) {
         List<Integer> resul = new ArrayList<>();
-        for (int i = 0; i < numbers.size(); i = i + 2) {
+        for (int i = 0; i < numbers.size(); i++) {
+            if (numbers.get(i) % 2 == 1) {
 
-            resul.add((Integer) numbers.get(i) * 2);
+                resul.add(numbers.get(i) * 2);
+            }
         }
         return resul;
     }
